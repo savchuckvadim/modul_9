@@ -1,0 +1,177 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+.body{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background: url('img/pattern.png');
+    background-color: rgb(227,238,239);
+    color: black;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    
+    align-items: center;
+}
+.header__text{
+    margin-top: 3vh;
+    text-align: end;
+    
+}
+.header__task{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large ;
+    
+
+
+}
+h1{
+    font-family: Helvetica;
+    font-size: 2rem;
+}
+h2{
+    text-align: end;
+}
+
+.header__img{
+    width: 50px;
+    height: auto;
+}
+
+section{
+    background-image: url('https://images.unsplash.com/photo-1506274674550-0539525d217d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80') ;
+    background-size: cover;
+
+    
+    
+    
+}
+.container{
+    /*padding: 40vh 0vh;*/
+    height: 73vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+   
+    width: 100%;
+}
+.task__link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 15px;
+    
+}
+.task__link:hover{
+font-size: 1.6rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+footer{
+    height: 15vh;
+    background-color:  rgb(49,62,64);
+}
+
+/* TASK 1 */
+
+.task1__text{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.7rem;
+}
+
+/* TASK 2 */
+
+
+.task2__content{
+    display: block;
+    display: flex;
+    font-size: large;
+    
+}
+
+.task2__content:hover{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.task2__content--code{
+    display: block;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+/* TASK 3 */
+
+
+#trafficLight1, #trafficLight2, #trafficLight3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+  }
+
+  .trafficLight{
+      display: block;
+      display: flex;
+  }
+
+/* TASK 4 */
+  .task4__link{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.7rem;
+      font-style: oblique;
+      font-style: Bold;
+      text-align: center;
+      text-decoration: none;
+      color: rgb(48, 60, 63);
+      
+  }
+
+  .task4__link:hover{
+    font-size: 1.8rem;
+      cursor: pointer;
+      color: rgb(56, 0, 0);
+      
+  }
+
+  
+/* TASK 5 */
+
+
+.row__task5{
+  /*  padding-top: 200px;
+    padding-bottom: 60px;
+    margin-left: 20px;*/
+}
+#sbm{
+    background-color:rgb(82, 115, 129);
+    
+    color: blanchedalmond;
+    border-radius: 5%;
+    margin-top: 2vh;
+
+    
+}
+.begining{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.begining:hover{
+    font-style: Bold;
+    color: red;
+   
+
+}
