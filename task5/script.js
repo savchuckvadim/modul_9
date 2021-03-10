@@ -1,9 +1,6 @@
 const formText = document.querySelector('#Field');
 const sbm = document.querySelector('#sbm');
 
-
-
-
 const testDuplicateField = document.querySelector('#duplicateField');
 //testDuplicateField.innerHTML = "content";
 

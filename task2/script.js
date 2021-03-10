@@ -4,6 +4,7 @@ consoleLog.addEventListener('click',
     alert('Пример использования команды console.log');
 })
 
+
 const al = document.querySelector('#alert');
 al.addEventListener('click',
 (event) => {
